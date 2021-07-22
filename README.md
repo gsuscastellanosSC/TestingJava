@@ -40,3 +40,7 @@
 ```Testing en Java con JUnit para Verificar Contraseñas```
 * En esta clase el profesor Ferran Maylinch nos enseña cómo escribir y realizar pruebas con JUnit para comprobar la seguridad en contraseñas utilizando expresiones regulares.
 * JUnit es un framework de código abierto diseñado para escribir y realizar pruebas de manera rápida y sencilla utilizando el lenguaje Java. Otras bibliotecas y frameworks similares son: TestNG, Robot Framework y JWalk.
+## ✅Class#5⚡️
+```Creación de test unitario: lanzar una excepción para alertar sobre un error```
+
+Vamos a utilizar una excepción con la función ```throw new RuntimeException("Error")``` en lugar de la función ```System.out.println("Error")``` para identificar más fácil los errores. Ahora, los mensajes tendrán un color diferente y pueden mostrarnos un poco más de información sobre los errores: ubicación, el resultado esperado, mensajes personalizados, entre otros.

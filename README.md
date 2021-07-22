@@ -36,3 +36,7 @@
         <maven.compiler.source>1.8maven.compiler.source>
         <maven.compiler.target>1.8maven.compiler.target>
     </properties>
+## ✅Class#4⚡️
+```Testing en Java con JUnit para Verificar Contraseñas```
+* En esta clase el profesor Ferran Maylinch nos enseña cómo escribir y realizar pruebas con JUnit para comprobar la seguridad en contraseñas utilizando expresiones regulares.
+* JUnit es un framework de código abierto diseñado para escribir y realizar pruebas de manera rápida y sencilla utilizando el lenguaje Java. Otras bibliotecas y frameworks similares son: TestNG, Robot Framework y JWalk.

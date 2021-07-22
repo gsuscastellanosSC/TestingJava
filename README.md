@@ -28,6 +28,11 @@
     * Inicio a fin: prueba todo un proceso del proyecto.
     * Estrés: útil para probar si nuestra aplicación puede soportar grandes cantidades de procesos y peticiones a la vez.
 ## ✅Class#3⚡️
-    Testing en Java con JUnit para Verificar Contraseñas
-        En esta clase el profesor Ferran Maylinch nos enseña cómo escribir y realizar pruebas con JUnit para comprobar la seguridad en contraseñas utilizando expresiones regulares.
-        JUnit es un framework de código abierto diseñado para escribir y realizar pruebas de manera rápida y sencilla utilizando el lenguaje Java. Otras bibliotecas y frameworks similares son: TestNG, Robot Framework y JWalk.
+```Instalación de IntelliJ IDEA, creación del Proyecto con Maven y Tests Unitarios```
+    
+    Vamos a descargar el editor IntelliJ IDEA y crear un proyecto en Maven. Para indicarle a Maven que usaremos Java 8 debemos añadir las siguientes líneas de código:
+
+    <properties>
+        <maven.compiler.source>1.8maven.compiler.source>
+        <maven.compiler.target>1.8maven.compiler.target>
+    </properties>

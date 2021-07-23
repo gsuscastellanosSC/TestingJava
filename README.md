@@ -59,6 +59,13 @@ Vamos a utilizar una excepción con la función ```throw new RuntimeException("E
     ```
 * La función ```assertEquals``` de JUnit se encarga de comprobar que dos valores sean iguales, en este caso comprobar si nuestra función ```repeat``` retorna el valor esperado.
 * Debemos indicarle a JUnit mediante ```@Test``` que función va a realizar una prueba.
+## ✅Class#7⚡️
+```Organización de tests con JUnit```
+* La forma correcta de separar nuestras pruebas es realizar cada una en su propia función, además, el nombre de la función debe describir que estamos probando.
+* Para indicarle a JUnit que esperamos una excepción lo debemos hacer de la siguiente forma:
+    ```
+    @Test(expected = IllegalArgumentException.class)
+    ```
 ## 🚧Lecturas recomendadas🚨
 * [JUnit – About](https://junit.org/junit4/)
 * [Download and Install · junit-team/junit4 Wiki · GitHub](https://github.com/junit-team/junit4/wiki/Download-and-Install)

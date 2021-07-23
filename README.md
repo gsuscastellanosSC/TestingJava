@@ -66,6 +66,21 @@ Vamos a utilizar una excepción con la función ```throw new RuntimeException("E
     ```
     @Test(expected = IllegalArgumentException.class)
     ```
+## ✅Class#8⚡️
+```Test con Mockito para simular un dado```
+* Mockito nos va a servir para simular clases mientras probamos, para añadirlo a nuestro proyecto debemos copiar las siguientes líneas de código:
+    ```
+    <dependency>
+        <groupId>org.mockitogroupId>
+        <artifactId>mockito-coreartifactId>
+        <version>2.23.4version>
+        <scope>testscope>
+    <dependency>
+    ```
+* Para instanciar un mock debemos utilizar la función ```Mockito.mock()``` e indicarle como parámetro la clase que va a simular.
+* Las funciones ```assertFalse``` y ```assertTrue``` tal como su nombre lo indican, sirven para comprobar si un valor es igual a ```false``` o ```true``` respectivamente.
 ## 🚧Lecturas recomendadas🚨
+* [Mockito framework site](https://site.mockito.org/)
+* [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)
 * [JUnit – About](https://junit.org/junit4/)
 * [Download and Install · junit-team/junit4 Wiki · GitHub](https://github.com/junit-team/junit4/wiki/Download-and-Install)

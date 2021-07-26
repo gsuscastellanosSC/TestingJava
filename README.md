@@ -90,7 +90,21 @@ Vamos a utilizar una excepción con la función ```throw new RuntimeException("E
 
 Podemos reducir la cantidad de código moviendo las partes comunes de preparación a una función que se ejecute antes de cada prueba.
 Con ```@Before``` le indicamos a JUnit la función que debe ejecutar antes de cada prueba.
-
+## ✅Class#11⚡️
+```Reto 1: crear la función isEmpty```
+* En una aplicación que estamos construyendo, nos hemos dado cuenta de que comprobamos muchas veces si un string está vacío o no. Por ello, vamos a implementar una función que realice esta tarea.
+* Crearemos una clase StringUtil y dentro pondremos la función isEmpty:
+    public class StringUtil {
+        public static boolean isEmpty(String str) {
+           ...
+        }
+    }
+* Implementa esta función, y crea una clase StringUtilTest añadiendo tests que prueben varios escenarios:
+    * Probar que un string cualquiera no es vacío
+    * Probar que “” es un string vacío
+    * Probar que null también es un string vacío
+    * Extra: un string con espacios " " también lo queremos considerar como vacío (pista: puedes usar la función trim)
+* Comparte tu solución en el panel de discusiones.
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

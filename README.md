@@ -105,6 +105,22 @@ Con ```@Before``` le indicamos a JUnit la función que debe ejecutar antes de ca
     * Probar que null también es un string vacío
     * Extra: un string con espacios " " también lo queremos considerar como vacío (pista: puedes usar la función trim)
 * Comparte tu solución en el panel de discusiones.
+## ✅Class#12⚡️
+```TDD: Definición, Beneficios, Ciclos y Reglas```
+
+El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent Beck, consiste en escribir primero los test antes que las clases permitiéndote ver si el diseño de una clase es la adecuada.
+* El ciclo del TDD
+    * Red: escribe un test que falle.
+    * Green: escribe el código necesario para que pase el test.
+    * Refactor: refactoriza el código para que pase el test.
+* Reglas
+    1. Sólo escribirás código de test hasta que falle.
+    2. Sólo escribirás código de producción para pasar el test.
+    3. No escribirás más código de producción del necesario.
+* Puedes combinar las reglas del TDD con su ciclo tal como hizo el profesor:
+    1. Red: Escribirás el mínimo de código test que falle.
+    2. Green: Escribirás el mínimo de código de producción que pase el test.
+    3. Refactor: sólo cuando los tests estén pasando.
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

@@ -121,6 +121,18 @@ El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent B
     1. Red: Escribirás el mínimo de código test que falle.
     2. Green: Escribirás el mínimo de código de producción que pase el test.
     3. Refactor: sólo cuando los tests estén pasando.
+## ✅Class#13⚡️
+```Ejemplos de TDD: calcular el año bisiesto```
+
+* Descripción:
+    Los años bisiestos son años con 366 días en vez de 365 y suceden cada 4 años.
+* Para determinar si un año es bisiesto o no, debemos seguir las siguientes reglas:
+    * Todos los años divisibles por 400 son bisiestos (1600, 2000, 2400)
+    * Todos los años divisibles por 100 pero NO por 400 NO son bisiestos (1700, 1800, 1900)
+    * Todos los años divisibles por 4 son bisiestos (1996, 2004, 2012)
+    * Todos los años que NO son divisibles por 4 NO son bisiestos (2017, 2018, 2019)
+* Algunas clases de pruebas terminan con la palabra Should en lugar de Test porque podemos entenderlas como frases cuando se leen en conjunto con los nombres de los métodos.
+* Por ejemplo, la clase ```DateUtilLeapYearShould``` con su método ```return_true_when_year_is_divisible_by_400``` pueden leerse como ```“Date utils leap year should return true when year is divisible by 400”``` o ```“Los utils para calcular el año bisiesto deben devuelven true cuando el año es divisible por 400”```.
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

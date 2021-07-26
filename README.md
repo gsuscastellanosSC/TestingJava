@@ -81,6 +81,16 @@ Vamos a utilizar una excepción con la función ```throw new RuntimeException("E
 * Las funciones ```assertFalse``` y ```assertTrue``` tal como su nombre lo indican, sirven para comprobar si un valor es igual a ```false``` o ```true``` respectivamente.
 ## ✅Class#9⚡️
 ```Test con Mockito: simular el uso de una pasarela de pago```
+## ✅Class#10⚡️
+```Análisis de los tests y mejoras```
+* Nuestros test siguen un mismo proceso:
+    1. Se ```preparan los objetos``` que vamos a probar.
+    2. ```Llamamos al método``` que estamos probando.
+    3. ```Comprobamos``` los resultados.
+
+Podemos reducir la cantidad de código moviendo las partes comunes de preparación a una función que se ejecute antes de cada prueba.
+Con ```@Before``` le indicamos a JUnit la función que debe ejecutar antes de cada prueba.
+
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

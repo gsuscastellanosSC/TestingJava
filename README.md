@@ -79,6 +79,8 @@ Vamos a utilizar una excepción con la función ```throw new RuntimeException("E
     ```
 * Para instanciar un mock debemos utilizar la función ```Mockito.mock()``` e indicarle como parámetro la clase que va a simular.
 * Las funciones ```assertFalse``` y ```assertTrue``` tal como su nombre lo indican, sirven para comprobar si un valor es igual a ```false``` o ```true``` respectivamente.
+## ✅Class#9⚡️
+```Test con Mockito: simular el uso de una pasarela de pago```
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

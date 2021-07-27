@@ -133,6 +133,12 @@ El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent B
     * Todos los años que NO son divisibles por 4 NO son bisiestos (2017, 2018, 2019)
 * Algunas clases de pruebas terminan con la palabra Should en lugar de Test porque podemos entenderlas como frases cuando se leen en conjunto con los nombres de los métodos.
 * Por ejemplo, la clase ```DateUtilLeapYearShould``` con su método ```return_true_when_year_is_divisible_by_400``` pueden leerse como ```“Date utils leap year should return true when year is divisible by 400”``` o ```“Los utils para calcular el año bisiesto deben devuelven true cuando el año es divisible por 400”```.
+## ✅Class#14⚡️
+```Ejemplos de TDD: cálculo de descuentos```
+## ✅Class#15⚡️
+```Reto 2: Práctica de TDD```
+* Solve ```FizzBuzz```.
+* Solve ```Numbers to Roman```.
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

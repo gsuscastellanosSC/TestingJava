@@ -1,10 +1,11 @@
-package com.platzi.javatest.util;
+package com.platzi.javatest.challenge;
 
+import com.platzi.javatest.challenge.StringUtilChallenge;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class StringUtilChallengeTest {
+public class StringUtilChallengeShould {
 
     @Test
     public void string_not_empty_test(){

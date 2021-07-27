@@ -1,4 +1,4 @@
-package com.platzi.javatest.util;
+package com.platzi.javatest.challenge;
 
 public class StringUtilChallenge {
 

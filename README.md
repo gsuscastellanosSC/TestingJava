@@ -150,6 +150,8 @@ El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent B
 ```App de Películas: Test de Negocio```
 ## Class#18⚡️
 ```App de Películas: test de búsqueda de películas por su duración```
+## Class#19⚡️
+```Creación de la base de datos y tests de integración con bases de datos```
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

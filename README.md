@@ -152,6 +152,10 @@ El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent B
 ```App de Películas: test de búsqueda de películas por su duración```
 ## Class#19⚡️
 ```Creación de la base de datos y tests de integración con bases de datos```
+## Class#20⚡️
+```Test de integración con base de datos: guardar películas y búsqueda de películas individuales```
+
+Por el momento, nuestras pruebas están cargando varias veces la información de la base de datos y vamos a solucionar este problema creando una función que borre la información. Para esto, debemos usar la instrucción ```@After``` para que JUnit ejecute la función cada vez que termina de hacer un test.
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

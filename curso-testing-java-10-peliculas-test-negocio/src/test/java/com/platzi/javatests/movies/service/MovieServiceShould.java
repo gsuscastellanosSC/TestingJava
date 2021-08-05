@@ -46,6 +46,12 @@ public class MovieServiceShould {
         assertThat(getMovieIds(movies), CoreMatchers.is(Arrays.asList(3, 6)) );
     }
 
+    @Test
+    public void return_movies_by_length() {
+
+        Collection<Movie> movies = movieService.findMoviesByLength(119);
+        assertThat(getMovieIds(movies), CoreMatchers.is(Arrays.asList(2, 3, 4, 5, 6)) );
+    }
 
     private List<Integer> getMovieIds(Collection<Movie> movies) {
         return movies.stream().map(Movie::getId).collect(Collectors.toList());

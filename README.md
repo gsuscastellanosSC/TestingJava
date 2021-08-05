@@ -146,6 +146,8 @@ El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent B
     * Negocio: Es la lógica de nuestra aplicación.
     * Datos: Se encarga de guardar los datos de nuestra aplicación.
     * Cada capa se puede comunicar con otra, pero no conoce los detalles de implementación.
+## ✅Class#17⚡️
+```App de Películas: Test de Negocio```
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)

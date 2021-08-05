@@ -139,6 +139,13 @@ El Test Driven Development (TDD) o desarrollo guiado por test, creado por Kent B
 ```Reto 2: Práctica de TDD```
 * Solve ```FizzBuzz```.
 * Solve ```Numbers to Roman```.
+## ✅Class#16⚡️
+```Organización de una aplicación```
+* Por lo general una aplicación se divide en:
+    * Interfaz: Se encarga de la comunicación con el exterior o un usuario.
+    * Negocio: Es la lógica de nuestra aplicación.
+    * Datos: Se encarga de guardar los datos de nuestra aplicación.
+    * Cada capa se puede comunicar con otra, pero no conoce los detalles de implementación.
 ## 🚧Lecturas recomendadas🚨
 * [Mockito framework site](https://site.mockito.org/)
 * [The Central Repository Search Engine](https://search.maven.org/search?q=g:org.mockito%20AND%20a:mockito-core&amp;core=gav)
